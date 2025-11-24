@@ -1,0 +1,1444 @@
+﻿<!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Wed Jun 04 2025 02:28:26 GMT+0000 (Coordinated Universal Time) -->
+<head>
+	<meta charset="utf-8">
+	<title>Mateusz Wicha Portfolio</title>
+	<meta content="Mateusz Wicha Portfolio" property="og:title">
+	<meta content="Mateusz Wicha Portfolio" property="twitter:title">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta property="og:type" content="portfolio">
+	<meta property="og:description" content="Hello, I'd love to help bring it to life for startups and enterprises. You can contact me via WhatsApp or email.">
+	<meta property="og:locale" content="en-US">
+
+	<link href="assets1/css/vyltrix-template.webflow.shared.264a03416.css" rel="stylesheet"
+		type="text/css">
+	<style>
+		.skills-container {
+			padding: 90px 0;
+			overflow: hidden;
+		}
+		
+		.skills-marquee-container {
+			overflow: hidden;
+			white-space: nowrap;
+			position: relative;
+			mask: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+			-webkit-mask: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+		}
+		
+		.skills-marquee {
+			display: inline-flex;
+			animation: scroll-left 30s linear infinite;
+		}
+		
+		.skills-marquee.reverse {
+			animation: scroll-right 30s linear infinite;
+		}
+		
+		.skills-list {
+			display: inline-flex;
+			align-items: center;
+			gap: 40px;
+			padding: 10px 20px;
+		}
+		
+		.skill-item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			white-space: nowrap;
+			transition: transform 0.3s ease, opacity 0.3s ease;
+			opacity: 1;
+		}
+		
+		.skill-item:hover {
+			transform: translateY(-5px);
+		}
+		
+		.skill-icon {
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 15px;
+			transition: all 0.3s ease;
+		}
+		
+		.skill-icon:hover {
+			transform: scale(1.2);
+		}
+		
+		.skill-icon img {
+			width: 70px;
+			height: 70px;
+			object-fit: contain;
+		}
+		
+		/* Icons are now colorful from Icons8 */
+		
+		.skill-name {
+			font-size: 14px;
+			font-weight: 600;
+			color: #ffffff;
+			text-align: center;
+			line-height: 1.2;
+		}
+		
+		.skills-gap {
+			height: 2px;
+			background: linear-gradient(90deg, transparent, #FF6600, transparent);
+			margin: 30px 0;
+			position: relative;
+		}
+		
+		.skills-side-fade {
+			position: absolute;
+			top: 0;
+			width: 100px;
+			height: 100%;
+			z-index: 2;
+			pointer-events: none;
+		}
+		
+		.skills-side-fade.left {
+			left: 0;
+			/* background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.7), transparent); */
+			width: 150px;
+		}
+		
+		.skills-side-fade.right {
+			right: 0;
+			/* background: linear-gradient(to left, rgba(0,0,0,0.9), rgba(0,0,0,0.7), transparent); */
+			width: 150px;
+		}
+		
+		@keyframes scroll-left {
+			0% { transform: translateX(0); }
+			100% { transform: translateX(-50%); }
+		}
+		
+		@keyframes scroll-right {
+			0% { transform: translateX(-50%); }
+			100% { transform: translateX(0); }
+		}
+		
+		@media (max-width: 768px) {
+			.skills-list {
+				gap: 30px;
+			}
+			
+			.skill-icon {
+				width: 70px;
+				height: 70px;
+			}
+			
+			.skill-icon img {
+				width: 40px;
+				height: 40px;
+			}
+			
+			.skill-name {
+				font-size: 12px;
+			}
+		}
+		
+		@media (max-width: 480px) {
+			.skills-list {
+				gap: 25px;
+			}
+			
+			.skill-icon {
+				width: 60px;
+				height: 60px;
+			}
+			
+			.skill-icon img {
+				width: 35px;
+				height: 35px;
+			}
+			
+			.skill-name {
+				font-size: 11px;
+			}
+		}
+	</style>
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+	<script src="ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+	<script
+		type="text/javascript">WebFont.load({ google: { families: ["Kumbh Sans:100,200,300,regular,500,600,700,800,900", "Outfit:100,200,300,regular,500,600,700,800,900"] } });</script>
+	<script
+		type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+	<link href="assets1/Romeo-Alexander-Logo-Source.png" rel="shortcut icon" type="image/x-icon">
+	<link href="assets1/Romeo-Alexander-Logo-Source.png" rel="apple-touch-icon">
+</head>
+
+<body>
+	<nav data-w-id="c2b08a84-b978-4c26-1a74-753dd683e5bf" class="navbar"><a href="index.htm" aria-current="page"
+			class="logo-container w-inline-block w--current"><img
+				src="assets1/Romeo-Alexander-Logo-Source.png" loading="lazy" alt="Vyntrix"
+				class="logo">
+			
+		</a>
+		<div class="nav-menu-container">
+			<div class="nav-menu"><a href="index.htm" aria-current="page" class="nav-links w--current">Home</a><a
+					href="about.html" class="nav-links">About</a><a href="portfolio.html"
+					class="nav-links">Portfolio</a><a href="contact.html"
+					class="nav-links mobile">Contact</a></div>
+		</div>
+		<div class="nav-main-button"><a data-w-id="9879590d-874b-6100-4d66-70c8f36f54cc" href="contact.html"
+				class="main-button w-inline-block">
+				<div class="main-button-text">Contact Me</div>
+				<div class="second-button-text">Contact Me</div>
+				<div class="button-icon-container"><img
+						src="assets1/6753b5089f75b485a85b734a_Button%20Arrow%20Icon.svg" loading="lazy"
+						alt="" class="button-icon main"><img
+						src="assets1/6753b5089f75b485a85b734a_Button%20Arrow%20Icon.svg" loading="lazy"
+						alt="" class="button-icon secondary"></div>
+			</a></div>
+		<div class="straight-line-decor"></div>
+		<div data-w-id="c2b08a84-b978-4c26-1a74-753dd683e5d3" class="hamburger-button">
+			<div class="hamburger-icon">
+				<div data-w-id="c2b08a84-b978-4c26-1a74-753dd683e5d5" class="hamburger-icon-line"></div>
+				<div data-w-id="c2b08a84-b978-4c26-1a74-753dd683e5d6" class="hamburger-icon-line"></div>
+			</div>
+		</div>
+	</nav>
+	<div class="home-header-container">
+		<div class="home-header-inner-container">
+			<header data-w-id="d9524c9a-90bc-b859-6b63-baf18cb78bdc" class="home-header">
+				<div class="social-media-container-special vertical">
+					<a href="https://wa.me/19128209408" class="social-media-link w-inline-block">
+						<div class="social-icon whatsapp w-embed">
+							<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" width="32" height="32" style="filter: brightness(0) invert(1);">
+						</div>
+					</a>
+					<a href="mailto:snowleo1342@gmail.com" class="social-media-link w-inline-block">
+						<div class="social-icon gmail w-embed">
+							<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Gmail" width="32" height="32" style="filter: brightness(0) invert(1);">
+						</div>
+					</a>
+					<a href="https://www.linkedin.com/in/mateusz-wicha-828a45391/" class="social-media-link w-inline-block">
+						<div class="social-icon linkedin w-embed">
+							<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="32" height="32" style="filter: brightness(0) invert(1);">
+						</div>
+					</a>
+					<a href="https://x.com/mateuszwicha" class="social-media-link w-inline-block">
+						<div class="social-icon twitter w-embed">
+							<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X (Twitter)" width="32" height="32" style="filter: brightness(0) invert(1);">
+						</div>
+					</a>
+					<a href="https://www.instagram.com/mateuszwicha/" class="social-media-link w-inline-block">
+						<div class="social-icon instagram w-embed">
+							<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" width="32" height="32" style="filter: brightness(0) invert(1);">
+						</div>
+					</a>
+					<div class="dented-corners-border">
+						<div class="border-glow-vertical social-media"></div>
+					</div>
+				</div>
+				<div class="header-vertical-line-decor">
+					<div class="header-line-blocker-1"></div>
+					<div class="header-line-blocker-2"></div>
+				</div>
+				<div class="header-contents-container">
+					<div class="header-contents">
+						<h1 class="display-1 margin-16">Mateusz<br>Wicha</h1>
+						<p class="home-hero-paragraph margin-32">I specialize in creating AI-powered solutions, developing chatbots, custom AI agents, and Voice Agents, Computer Vision, deploying machine learning models, and Web/Mobile building.</p>
+						<div class="achievement-container">
+							<div class="achievement-item">
+								<div class="achievement-number-container">
+									<div class="achievement-number">50</div>
+									<div class="achievement-symbol">+</div>
+								</div>
+								<div class="achievement-text">Projects<br>Done</div>
+							</div>
+							<div class="achievement-item">
+								<div class="achievement-number-container">
+									<div class="achievement-number">30</div>
+									<div class="achievement-symbol">+</div>
+								</div>
+								<div class="achievement-text">Happy<br>Clients</div>
+							</div>
+							<div class="achievement-item">
+								<div class="achievement-number-container">
+									<div class="achievement-number">8</div>
+									<div class="achievement-symbol">+</div>
+								</div>
+								<div class="achievement-text">Years of<br>Experience</div>
+							</div>
+						</div>
+						<div class="social-media-container">
+							<a href="https://wa.me/19128209408" class="social-media-link w-inline-block">
+								<div class="social-icon whatsapp w-embed">
+									<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" width="32" height="32" style="filter: brightness(0) invert(1);">
+								</div>
+							</a>
+							<a href="mailto:snowleo1342@gmail.com" class="social-media-link w-inline-block">
+								<div class="social-icon gmail w-embed">
+									<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Gmail" width="32" height="32" style="filter: brightness(0) invert(1);">
+								</div>
+							</a>
+							<a href="https://www.linkedin.com/in/mateusz-wicha-828a45391/" class="social-media-link w-inline-block">
+								<div class="social-icon linkedin w-embed">
+									<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="32" height="32" style="filter: brightness(0) invert(1);">
+								</div>
+							</a>
+							<a href="https://x.com/mateuszwicha" class="social-media-link w-inline-block">
+								<div class="social-icon twitter w-embed">
+									<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X (Twitter)" width="32" height="32" style="filter: brightness(0) invert(1);">
+								</div>
+							</a>
+							<a href="https://www.instagram.com/mateuszwicha/" class="social-media-link w-inline-block">
+								<div class="social-icon instagram w-embed">
+									<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" width="32" height="32" style="filter: brightness(0) invert(1);">
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="home-hero-image-container"><img
+							src="assets1/67d238919af3adea13aa9b84_Hero Image-p-800.webp" loading="lazy"
+							sizes="(max-width: 1080px) 100vw, 1080px"
+							srcset="assets1/67d238919af3adea13aa9b84_Hero%20Image-p-500.webp 500w, assets1/67d238919af3adea13aa9b84_Hero%20Image-p-800.webp 800w, assets1/67d238919af3adea13aa9b84_Hero Image-p-800.webp"
+							alt="Mateusz Wicha" class="personal-picture-home">
+						<div class="hero-image-name">Mateusz Wicha</div>
+						<div data-w-id="16420bc4-04fd-7ac9-4d3e-43f38a009654" class="hero-image-services">
+							<div style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+								class="hero-image-service-item service-1">AI / ML  Developer</div>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div><img src="assets1/67bfd0e17b5bef1214f833e4_Home%20Hero%20Glow-min.png" loading="lazy"
+			sizes="(max-width: 696px) 100vw, 696px"
+			srcset="assets1/67bfd0e17b5bef1214f833e4_Home%20Hero%20Glow-min-p-500.png 500w, assets1/67bfd0e17b5bef1214f833e4_Home%20Hero%20Glow-min.png 696w"
+			alt="" class="orange-glow">
+	</div>
+	<main>
+		<section data-w-id="479ab6d6-d79d-caf4-cc46-2b763e8fc392" class="section services">
+			<h2 data-w-id="479ab6d6-d79d-caf4-cc46-2b763e8fc393" class="display-2 center-align margin-40">AI/ML Solutions to
+				<span class="highlight-text">Transform</span> Your Business</h2>
+			<p class="center-paragraph-section margin-80">With over 10 years of experience in AI/ML development, I create intelligent solutions that solve real-world challenges across healthcare, law, education, and other industries.</p>
+			<div data-w-id="479ab6d6-d79d-caf4-cc46-2b763e8fc39a" class="background-container">
+				<div data-w-id="479ab6d6-d79d-caf4-cc46-2b763e8fc39b" class="service-circle-border-decor">
+					<div data-w-id="479ab6d6-d79d-caf4-cc46-2b763e8fc39c" class="border-glow-horizontal"></div>
+					<div class="service-circle-fill-decor"></div>
+				</div>
+				<div class="service-circle-decor-blocker back"></div>
+				<div data-w-id="479ab6d6-d79d-caf4-cc46-2b763e8fc39f" class="service-circle-border-decor inner-circle">
+					<div class="service-circle-fill-decor"></div>
+					<div data-w-id="479ab6d6-d79d-caf4-cc46-2b763e8fc3a1" class="border-glow-horizontal"></div>
+				</div>
+				<div class="service-circle-decor-blocker front"></div>
+			</div>
+			<div data-w-id="479ab6d6-d79d-caf4-cc46-2b763e8fc3a3" class="services-container">
+				<div class="side-service-container">
+					<div data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec0" class="service-item">
+						<div class="service-icon-outer-container">
+							<div class="service-icon-container"><img
+									src="https://img.icons8.com/ios/100/FF6600/brain.png"
+									loading="lazy" alt="AI-Powered Solutions" class="service-icon">
+								<div class="border-mask service-icon-container-mask"><img
+										src="assets1/6758fcd61ecb7c31f3b11c60_Conic%20Gradient.webp"
+										loading="lazy" data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec5" alt=""
+										class="spinning-border-glow"></div>
+							</div>
+							<div class="border-mask service-icon-outer-container-mask"><img
+									src="assets1/6758fcd61ecb7c31f3b11c60_Conic%20Gradient.webp"
+									loading="lazy" data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec7" alt=""
+									class="spinning-border-glow"></div>
+							<div class="service-item-background-container"><img
+									src="assets1/6758eb9b96cfe40d2167a4f6_Service%20Item%20BG.svg"
+									loading="lazy" alt="" class="service-item-background-image">
+								<div class="service-item-background-mask trapezoid-mask">
+									<div data-w-id="c4ef384b-afdf-cab2-69ed-2b7b1d832b59"
+										class="border-glow-horizontal service-item-glow"></div>
+								</div>
+								<div class="service-item-background-mask line-mask">
+									<div data-w-id="9b800d2e-f750-0b9a-da48-5e7c6d219861"
+										class="border-glow-horizontal service-item-glow"></div>
+								</div>
+							</div>
+						</div>
+						<div class="service-summary-container center-align">
+							<h3 class="list-item-title">AI-Powered Solutions</h3>
+							<p class="service-description">Creating intelligent chatbots, custom AI agents, and voice assistants for enhanced user engagement.</p>
+						</div>
+					</div>
+				</div>
+				<div id="w-node-_81eab5c5-a137-5fbe-089d-a10eb24356f1-3e8fc392"
+					data-w-id="81eab5c5-a137-5fbe-089d-a10eb24356f1" class="center-service-container">
+					<div data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec0" class="service-item">
+						<div class="service-icon-outer-container">
+							<div class="service-icon-container"><img
+									src="https://img.icons8.com/ios/100/FF6600/chat.png"
+									loading="lazy" alt="LLM & RAG Systems" class="service-icon">
+								<div class="border-mask service-icon-container-mask"><img
+										src="assets1/6758fcd61ecb7c31f3b11c60_Conic%20Gradient.webp"
+										loading="lazy" data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec5" alt=""
+										class="spinning-border-glow"></div>
+							</div>
+							<div class="border-mask service-icon-outer-container-mask"><img
+									src="assets1/6758fcd61ecb7c31f3b11c60_Conic%20Gradient.webp"
+									loading="lazy" data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec7" alt=""
+									class="spinning-border-glow"></div>
+							<div class="service-item-background-container"><img
+									src="assets1/6758eb9b96cfe40d2167a4f6_Service%20Item%20BG.svg"
+									loading="lazy" alt="" class="service-item-background-image">
+								<div class="service-item-background-mask trapezoid-mask">
+									<div data-w-id="c4ef384b-afdf-cab2-69ed-2b7b1d832b59"
+										class="border-glow-horizontal service-item-glow"></div>
+								</div>
+								<div class="service-item-background-mask line-mask">
+									<div data-w-id="9b800d2e-f750-0b9a-da48-5e7c6d219861"
+										class="border-glow-horizontal service-item-glow"></div>
+								</div>
+							</div>
+						</div>
+						<div class="service-summary-container center-align">
+							<h3 class="list-item-title">LLM & RAG Systems</h3>
+							<p class="service-description">Expert in prompt engineering and advanced RAG systems using LLM and Convex.</p>
+						</div>
+					</div>
+					<div class="framing-line-container top">
+						<div class="framing-line vertical"></div>
+						<div class="framing-line horizontal"></div>
+						<div class="framing-line-glow-blocker"></div>
+						<div class="framing-line-glow"></div>
+					</div>
+					<div class="framing-line-container bottom">
+						<div class="framing-line vertical"></div>
+						<div class="framing-line horizontal"></div>
+						<div class="framing-line-glow-blocker"></div>
+						<div class="framing-line-glow"></div>
+					</div>
+				</div>
+				<div class="center-service-container">
+					<div data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec0" class="service-item">
+						<div class="service-icon-outer-container">
+							<div class="service-icon-container"><img
+									src="https://img.icons8.com/ios/100/FF6600/network.png"
+									loading="lazy" alt="ML Model Deployment" class="service-icon">
+								<div class="border-mask service-icon-container-mask"><img
+										src="assets1/6758fcd61ecb7c31f3b11c60_Conic%20Gradient.webp"
+										loading="lazy" data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec5" alt=""
+										class="spinning-border-glow"></div>
+							</div>
+							<div class="border-mask service-icon-outer-container-mask"><img
+									src="assets1/6758fcd61ecb7c31f3b11c60_Conic%20Gradient.webp"
+									loading="lazy" data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec7" alt=""
+									class="spinning-border-glow"></div>
+							<div class="service-item-background-container"><img
+									src="assets1/6758eb9b96cfe40d2167a4f6_Service%20Item%20BG.svg"
+									loading="lazy" alt="" class="service-item-background-image">
+								<div class="service-item-background-mask trapezoid-mask">
+									<div data-w-id="c4ef384b-afdf-cab2-69ed-2b7b1d832b59"
+										class="border-glow-horizontal service-item-glow"></div>
+								</div>
+								<div class="service-item-background-mask line-mask">
+									<div data-w-id="9b800d2e-f750-0b9a-da48-5e7c6d219861"
+										class="border-glow-horizontal service-item-glow"></div>
+								</div>
+							</div>
+						</div>
+						<div class="service-summary-container center-align">
+							<h3 class="list-item-title">ML Model Deployment</h3>
+							<p class="service-description">Deploying ML models across platforms with smooth integration and optimal performance.</p>
+						</div>
+					</div>
+				</div>
+				<div class="side-service-container">
+					<div data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec0" class="service-item">
+						<div class="service-icon-outer-container">
+							<div class="service-icon-container"><img
+									src="https://img.icons8.com/ios/100/FF6600/microphone.png"
+									loading="lazy" alt="Voice & Automation" class="service-icon">
+								<div class="border-mask service-icon-container-mask"><img
+										src="assets1/6758fcd61ecb7c31f3b11c60_Conic%20Gradient.webp"
+										loading="lazy" data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec5" alt=""
+										class="spinning-border-glow"></div>
+							</div>
+							<div class="border-mask service-icon-outer-container-mask"><img
+									src="assets1/6758fcd61ecb7c31f3b11c60_Conic%20Gradient.webp"
+									loading="lazy" data-w-id="34872a0b-7444-4da8-ee4f-05fff0952ec7" alt=""
+									class="spinning-border-glow"></div>
+							<div class="service-item-background-container"><img
+									src="assets1/6758eb9b96cfe40d2167a4f6_Service%20Item%20BG.svg"
+									loading="lazy" alt="" class="service-item-background-image">
+								<div class="service-item-background-mask trapezoid-mask">
+									<div data-w-id="c4ef384b-afdf-cab2-69ed-2b7b1d832b59"
+										class="border-glow-horizontal service-item-glow"></div>
+								</div>
+								<div class="service-item-background-mask line-mask">
+									<div data-w-id="9b800d2e-f750-0b9a-da48-5e7c6d219861"
+										class="border-glow-horizontal service-item-glow"></div>
+								</div>
+							</div>
+						</div>
+						<div class="service-summary-container center-align">
+							<h3 class="list-item-title">Voice & Automation</h3>
+							<p class="service-description">Developing STT/TTS systems, Livekit, VoiceFlow apps, and workflow automation with n8n, Zapier, and Make.com.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-w-id="84b4a409-eea7-c69a-dfa3-a941909b5db6" class="section projects">
+			<div class="section-text-container projects">
+				<h2 class="section-heading margin-20">Showcasing My <span class="highlight-text">Best</span> Work</h2>
+				<p class="section-paragraph">From AI-powered solutions to ML model deployment, each piece highlights my
+					dedication to crafting intelligent, functional, and innovative solutions tailored to client
+					needs.</p>
+			</div>
+			<div class="project-slider-container">
+				<div data-delay="4000" data-animation="slide" class="project-slider w-slider" data-autoplay="false"
+					data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
+					data-nav-spacing="3" data-duration="500" data-infinite="false">
+					<div class="project-slider-mask w-slider-mask">
+						<div class="project-slide w-slide">
+							<div class="portfolio-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									<div role="listitem" class="portfolio-item w-dyn-item"><a
+											href="portfolio/yoursearchai.html"
+											target="_blank"
+											class="cms-link project w-inline-block"><img
+												src="assets2/675381ae26040f2aa9125b21_672d7f2ee9461c6882fc0ffa_Portfolio%25201.jpeg"
+												loading="lazy" alt="YourSearch AI"
+												class="project-thumbnail">
+											<div class="project-summary-outer-container">
+												<div class="project-summary-container">
+													<h3 class="list-item-title">YourSearch AI</h3>
+													<p class="cms-summary">An AI-powered search engine designed to facilitate personalized internet research directly in your favorite messenger</p>
+													<div class="read-more-container">
+														<p>Read More</p><img
+															src="assets1/676150c51b548d01d4402fbd_Orange%20Button%20Arrow.svg"
+															loading="lazy" alt="" class="read-more-arrow">
+													</div>
+												</div>
+											</div>
+											<div class="cms-arrow-container"><img
+													src="assets1/675abdb051e0cf9c9704045b_CMS%20Arrow%20Background.svg"
+													loading="lazy" alt="" class="cms-arrow-background-image">
+												<div class="cms-arrow-mask"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image-2"></div>
+											</div>
+										</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="project-slide w-slide">
+							<div class="portfolio-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									<div role="listitem" class="portfolio-item w-dyn-item"><a
+											href="portfolio/levityai.html"
+											class="cms-link project w-inline-block"><img
+												src="assets2/675381ae54a26661f3d56d71_672d80ff2a48371a1785a0f2_Portfolio%25202.jpeg"
+												loading="lazy" alt="Levity AI"
+												class="project-thumbnail">
+											<div class="project-summary-outer-container">
+												<div class="project-summary-container">
+													<h3 class="list-item-title">Levity AI</h3>
+													<p class="cms-summary">Levity is transforming logistics operations through AI-powered email automation.</p>
+													<div class="read-more-container">
+														<p>Read More</p><img
+															src="assets1/676150c51b548d01d4402fbd_Orange%20Button%20Arrow.svg"
+															loading="lazy" alt="" class="read-more-arrow">
+													</div>
+												</div>
+											</div>
+											<div class="cms-arrow-container"><img
+													src="assets1/675abdb051e0cf9c9704045b_CMS%20Arrow%20Background.svg"
+													loading="lazy" alt="" class="cms-arrow-background-image">
+												<div class="cms-arrow-mask"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image-2"></div>
+											</div>
+										</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="project-slide w-slide">
+							<div class="portfolio-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									<div role="listitem" class="portfolio-item w-dyn-item"><a
+											href="portfolio/thoughtly.html"
+											class="cms-link project w-inline-block"><img
+												src="assets2/675381ad864ab9b6711adb13_672d81bff7d9a7f70c7a4c71_Portfolio%25206.jpeg"
+												loading="lazy" alt="Mobile App Development for FitLife"
+												class="project-thumbnail">
+											<div class="project-summary-outer-container">
+												<div class="project-summary-container">
+													<h3 class="list-item-title">Thoughtly</h3>
+													<p class="cms-summary">Thoughtly is the easiest way to build fully-integrated voice agents for your business.</p>
+													<div class="read-more-container">
+														<p>Read More</p><img
+															src="assets1/676150c51b548d01d4402fbd_Orange%20Button%20Arrow.svg"
+															loading="lazy" alt="" class="read-more-arrow">
+													</div>
+												</div>
+											</div>
+											<div class="cms-arrow-container"><img
+													src="assets1/675abdb051e0cf9c9704045b_CMS%20Arrow%20Background.svg"
+													loading="lazy" alt="" class="cms-arrow-background-image">
+												<div class="cms-arrow-mask"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image-2"></div>
+											</div>
+										</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="project-slide w-slide">
+							<div class="portfolio-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									<div role="listitem" class="portfolio-item w-dyn-item"><a
+											href="portfolio/famular.html"
+											class="cms-link project w-inline-block"><img
+												src="assets2/675381ad8cd78741863a4a61_672d81e4f7d9a7f70c7a6ef2_Portfolio%25207.jpeg"
+												loading="lazy" alt="Brand Strategy for EcoGoods"
+												class="project-thumbnail">
+											<div class="project-summary-outer-container">
+												<div class="project-summary-container">
+													<h3 class="list-item-title">Famulor</h3>
+													<p class="cms-summary">AI-powered phone calls with comprehensive analysis and management for enhanced customer engagement.</p>
+													<div class="read-more-container">
+														<p>Read More</p><img
+															src="assets1/676150c51b548d01d4402fbd_Orange%20Button%20Arrow.svg"
+															loading="lazy" alt="" class="read-more-arrow">
+													</div>
+												</div>
+											</div>
+											<div class="cms-arrow-container"><img
+													src="assets1/675abdb051e0cf9c9704045b_CMS%20Arrow%20Background.svg"
+													loading="lazy" alt="" class="cms-arrow-background-image">
+												<div class="cms-arrow-mask"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image-2"></div>
+											</div>
+										</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="project-slide w-slide">
+							<div class="portfolio-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									<div role="listitem" class="portfolio-item w-dyn-item"><a
+											href="portfolio/rios.html"
+											class="cms-link project w-inline-block"><img
+												src="assets2/675381adccdf753770ab982b_672d8166e0631cbbf01e7ae0_Portfolio%25204.jpeg"
+												loading="lazy" alt="RIOS"
+												class="project-thumbnail">
+											<div class="project-summary-outer-container">
+												<div class="project-summary-container">
+													<h3 class="list-item-title">DigyBot</h3>
+													<p class="cms-summary">DigyBot is a next-generation multi-channel, multi-agent customer service platform with AI-powered assistants.</p>
+													<div class="read-more-container">
+														<p>Read More</p><img
+															src="assets1/676150c51b548d01d4402fbd_Orange%20Button%20Arrow.svg"
+															loading="lazy" alt="" class="read-more-arrow">
+													</div>
+												</div>
+											</div>
+											<div class="cms-arrow-container"><img
+													src="assets1/675abdb051e0cf9c9704045b_CMS%20Arrow%20Background.svg"
+													loading="lazy" alt="" class="cms-arrow-background-image">
+												<div class="cms-arrow-mask"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image-2"></div>
+											</div>
+										</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="project-slide w-slide">
+							<div class="portfolio-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									<div role="listitem" class="portfolio-item w-dyn-item"><a
+											href="portfolio/cyfoxcybersecurity.html"
+											class="cms-link project w-inline-block"><img
+												src="assets2/675381ad8cd78741863a4a54_672d8093fde42a67f6aaae3f_672d80305bf9fde9734886f9_Portfolio%2525203.jpeg"
+												loading="lazy" alt="CYFOX Cybersecurity"
+												class="project-thumbnail">
+											<div class="project-summary-outer-container">
+												<div class="project-summary-container">
+													<h3 class="list-item-title">CYFOX</h3>
+													<p class="cms-summary">CYFOX is at the forefront of cybersecurity innovation, specializing in providing cutting-edge AI-driven solutions tailored for businesses.</p>
+													<div class="read-more-container">
+														<p>Read More</p><img
+															src="assets1/676150c51b548d01d4402fbd_Orange%20Button%20Arrow.svg"
+															loading="lazy" alt="" class="read-more-arrow">
+													</div>
+												</div>
+											</div>
+											<div class="cms-arrow-container"><img
+													src="assets1/675abdb051e0cf9c9704045b_CMS%20Arrow%20Background.svg"
+													loading="lazy" alt="" class="cms-arrow-background-image">
+												<div class="cms-arrow-mask"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image-2"></div>
+											</div>
+										</a></div>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="project-slide w-slide">
+							<div class="portfolio-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									<div role="listitem" class="portfolio-item w-dyn-item"><a
+											href="portfolio/drompmagic.html"
+											class="cms-link project w-inline-block"><img
+												src="assets2/675381ae61e634c2dda4b03a_672d818c2f3ea48ad3ad5f01_Portfolio%25205.jpeg"
+												loading="lazy" alt="E-commerce Development for ShopSmart"
+												class="project-thumbnail">
+											<div class="project-summary-outer-container">
+												<div class="project-summary-container">
+													<h3 class="list-item-title">DropMagic</h3>
+													<p class="cms-summary">DropMagic AI is your AI-powered store architect that creates fully functional e-commerce stores with intelligent automation.</p>
+													<div class="read-more-container">
+														<p>Read More</p><img
+															src="assets1/676150c51b548d01d4402fbd_Orange%20Button%20Arrow.svg"
+															loading="lazy" alt="" class="read-more-arrow">
+													</div>
+												</div>
+											</div>
+											<div class="cms-arrow-container"><img
+													src="assets1/675abdb051e0cf9c9704045b_CMS%20Arrow%20Background.svg"
+													loading="lazy" alt="" class="cms-arrow-background-image">
+												<div class="cms-arrow-mask"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image-2"></div>
+											</div>
+										</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="project-slide w-slide">
+							<div class="portfolio-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									<div role="listitem" class="portfolio-item w-dyn-item"><a
+											href="portfolio/degenexpress.html"
+											class="cms-link project w-inline-block"><img
+												src="assets2/675381ad61e634c2dda4afd8_672d84108b3aa544a37ce981_Portfolio%25209.jpeg"
+												loading="lazy" alt="Data Analytics for FinTech"
+												class="project-thumbnail">
+											<div class="project-summary-outer-container">
+												<div class="project-summary-container">
+													<h3 class="list-item-title">Degen Express</h3>
+													<p class="cms-summary">Degen Express is the place where memecoins are born, and degens are made.</p>
+													<div class="read-more-container">
+														<p>Read More</p><img
+															src="assets1/676150c51b548d01d4402fbd_Orange%20Button%20Arrow.svg"
+															loading="lazy" alt="" class="read-more-arrow">
+													</div>
+												</div>
+											</div>
+											<div class="cms-arrow-container"><img
+													src="assets1/675abdb051e0cf9c9704045b_CMS%20Arrow%20Background.svg"
+													loading="lazy" alt="" class="cms-arrow-background-image">
+												<div class="cms-arrow-mask"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image"><img
+														src="assets1/6753b7cf8a1269042a574151_Short%20Arrow%20Button.svg"
+														loading="lazy" alt="" class="cms-arrow-image-2"></div>
+											</div>
+										</a></div>
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+					<div data-w-id="84b4a409-eea7-c69a-dfa3-a941909b5e72"
+						class="project-slider-arrow-button left-arrow w-slider-arrow-left"><img
+							src="assets1/6753b5089f75b485a85b734a_Button%20Arrow%20Icon.svg"
+							loading="lazy" alt="" class="project-slider-arrow main reverse"><img
+							src="assets1/6753b5089f75b485a85b734a_Button%20Arrow%20Icon.svg"
+							loading="lazy" alt="" class="project-slider-arrow secondary reverse">
+						<div class="slider-arrow-button-indicator"></div>
+					</div>
+					<div data-w-id="84b4a409-eea7-c69a-dfa3-a941909b5e74"
+						class="project-slider-arrow-button right-arrow w-slider-arrow-right"><img
+							src="assets1/6753b5089f75b485a85b734a_Button%20Arrow%20Icon.svg"
+							loading="lazy" alt="" class="project-slider-arrow main"><img
+							src="assets1/6753b5089f75b485a85b734a_Button%20Arrow%20Icon.svg"
+							loading="lazy" alt="" class="project-slider-arrow secondary">
+						<div class="slider-arrow-button-indicator"></div>
+					</div>
+					<div class="hidden-slide-nav w-slider-nav w-round w-num"></div>
+				</div>
+				<div class="project-slider-border top">
+					<div class="project-slider-border-mask top">
+						<div data-w-id="84b4a409-eea7-c69a-dfa3-a941909b5e79" class="border-glow-horizontal"></div>
+					</div>
+				</div>
+				<div class="project-slider-border bottom">
+					<div class="project-slider-border-mask">
+						<div data-w-id="84b4a409-eea7-c69a-dfa3-a941909b5e7c" class="border-glow-horizontal"></div>
+					</div>
+				</div>
+			</div>
+			<div class="more-projects-button"><a data-w-id="9879590d-874b-6100-4d66-70c8f36f54cc" href="portfolio.html"
+					class="main-button w-inline-block">
+					<div class="main-button-text">All Projects</div>
+					<div class="second-button-text">All Projects</div>
+					<div class="button-icon-container"><img
+							src="assets1/6753b5089f75b485a85b734a_Button%20Arrow%20Icon.svg"
+							loading="lazy" alt="" class="button-icon main"><img
+							src="assets1/6753b5089f75b485a85b734a_Button%20Arrow%20Icon.svg"
+							loading="lazy" alt="" class="button-icon secondary"></div>
+				</a></div>
+			<div class="project-background decor-1"><img
+					src="assets1/675f94d725ddb6b5ac2ea1c7_Project%20Background%20Decor%201.svg"
+					loading="lazy" alt="" class="project-decor-1-image">
+				<div class="project-decor-1-image-mask">
+					<div data-w-id="84b4a409-eea7-c69a-dfa3-a941909b5e83" class="border-glow-horizontal"></div>
+				</div>
+			</div>
+			<div class="project-background decor-2"><img
+					src="assets1/675ba1ad1af862f5af22b01b_Project%20Background%20Decor%202.svg"
+					loading="lazy" alt="" class="project-decor-2-image">
+				<div class="project-decor-2-image-mask">
+					<div data-w-id="84b4a409-eea7-c69a-dfa3-a941909b5e87" class="border-glow-diagonal-top-left"></div>
+				</div>
+			</div>
+		</section>
+		<section class="section testimonial">
+			<h2 class="section-heading center-align margin-20">My <span
+					class="highlight-text">Skills</span></h2>
+			<p class="section-paragraph center-align margin-100">My technical expertise spans across cutting-edge AI/ML technologies, 
+				enabling me to deliver innovative solutions that drive business growth and digital transformation.</p>
+			<div class="skills-container">
+				<div class="skills-marquee-container">
+					<div class="skills-marquee">
+						<div class="skills-list">
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" loading="lazy">
+									</div>
+								<span class="skill-name">Scikit-learn</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" loading="lazy">
+							</div>
+								<span class="skill-name">Pandas</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" loading="lazy">
+								</div>
+								<span class="skill-name">NumPy</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" loading="lazy">
+									</div>
+								<span class="skill-name">OpenCV</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" loading="lazy">
+							</div>
+								<span class="skill-name">Keras</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" loading="lazy">
+								</div>
+								<span class="skill-name">PyTorch</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" loading="lazy">
+									</div>
+								<span class="skill-name">Hugging Face</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/langchain.svg" alt="LangChain" loading="lazy">
+							</div>
+								<span class="skill-name">LangChain</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" alt="OpenAI" loading="lazy">
+								</div>
+								<span class="skill-name">OpenAI</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/anthropic.svg" alt="Anthropic" loading="lazy">
+						</div>
+								<span class="skill-name">Anthropic</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" alt="Streamlit" loading="lazy">
+								</div>
+								<span class="skill-name">Streamlit</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gradio.svg" alt="Gradio" loading="lazy">
+									</div>
+								<span class="skill-name">Gradio</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" loading="lazy">
+							</div>
+								<span class="skill-name">Python</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" loading="lazy">
+								</div>
+								<span class="skill-name">TensorFlow</span>
+							</div>
+									</div>
+						<div class="skills-list">
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" loading="lazy">
+								</div>
+								<span class="skill-name">Scikit-learn</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" loading="lazy">
+									</div>
+								<span class="skill-name">Pandas</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" loading="lazy">
+							</div>
+								<span class="skill-name">NumPy</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" loading="lazy">
+								</div>
+								<span class="skill-name">OpenCV</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" loading="lazy">
+						</div>
+								<span class="skill-name">Keras</span>
+					</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" loading="lazy">
+				</div>
+								<span class="skill-name">PyTorch</span>
+				</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" loading="lazy">
+									</div>
+								<span class="skill-name">Hugging Face</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/langchain.svg" alt="LangChain" loading="lazy">
+							</div>
+								<span class="skill-name">LangChain</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" alt="OpenAI" loading="lazy">
+								</div>
+								<span class="skill-name">OpenAI</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/anthropic.svg" alt="Anthropic" loading="lazy">
+									</div>
+								<span class="skill-name">Anthropic</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" alt="Streamlit" loading="lazy">
+							</div>
+								<span class="skill-name">Streamlit</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gradio.svg" alt="Gradio" loading="lazy">
+								</div>
+								<span class="skill-name">Gradio</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" loading="lazy">
+									</div>
+								<span class="skill-name">Python</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" loading="lazy">
+							</div>
+								<span class="skill-name">TensorFlow</span>
+									</div>
+								</div>
+							</div>
+						</div>
+				<div class="skills-gap">
+					<div class="border-glow-horizontal"></div>
+									</div>
+				<div class="skills-marquee-container reverse">
+					<div class="skills-marquee reverse">
+						<div class="skills-list">
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" loading="lazy">
+								</div>
+								<span class="skill-name">React</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy">
+									</div>
+								<span class="skill-name">JavaScript</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" loading="lazy">
+							</div>
+								<span class="skill-name">Git</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" loading="lazy">
+								</div>
+								<span class="skill-name">Docker</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" loading="lazy">
+									</div>
+								<span class="skill-name">Kubernetes</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" loading="lazy">
+							</div>
+								<span class="skill-name">AWS</span>
+									</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" loading="lazy">
+								</div>
+								<span class="skill-name">Google Cloud</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" loading="lazy">
+									</div>
+								<span class="skill-name">Azure</span>
+								</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" loading="lazy">
+							</div>
+								<span class="skill-name">MongoDB</span>
+						</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" loading="lazy">
+					</div>
+								<span class="skill-name">PostgreSQL</span>
+				</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" loading="lazy">
+								</div>
+								<span class="skill-name">Redis</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" loading="lazy">
+								</div>
+								<span class="skill-name">FastAPI</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" loading="lazy">
+								</div>
+								<span class="skill-name">Flask</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" loading="lazy">
+								</div>
+								<span class="skill-name">Django</span>
+							</div>
+						</div>
+						<div class="skills-list">
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" loading="lazy">
+								</div>
+								<span class="skill-name">React</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy">
+								</div>
+								<span class="skill-name">JavaScript</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" loading="lazy">
+								</div>
+								<span class="skill-name">Git</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" loading="lazy">
+								</div>
+								<span class="skill-name">Docker</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" loading="lazy">
+								</div>
+								<span class="skill-name">Kubernetes</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" loading="lazy">
+								</div>
+								<span class="skill-name">AWS</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" loading="lazy">
+								</div>
+								<span class="skill-name">Google Cloud</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" loading="lazy">
+								</div>
+								<span class="skill-name">Azure</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" loading="lazy">
+								</div>
+								<span class="skill-name">MongoDB</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" loading="lazy">
+								</div>
+								<span class="skill-name">PostgreSQL</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" loading="lazy">
+								</div>
+								<span class="skill-name">Redis</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" loading="lazy">
+								</div>
+								<span class="skill-name">FastAPI</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" loading="lazy">
+								</div>
+								<span class="skill-name">Flask</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" loading="lazy">
+								</div>
+								<span class="skill-name">Django</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="skills-gap">
+					<div class="border-glow-horizontal"></div>
+				</div>
+				<div class="skills-marquee-container">
+					<div class="skills-marquee">
+						<div class="skills-list">
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/n8n-color.png" alt="n8n" loading="lazy">
+								</div>
+								<span class="skill-name">n8n</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://img.icons8.com/color/96/000000/zapier.png" alt="Zapier" loading="lazy">
+								</div>
+								<span class="skill-name">Zapier</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/make-color.png" alt="Make.com" loading="lazy">
+								</div>
+								<span class="skill-name">Make.com</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://ramp.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F6jz6vxxd%2Fproduction%2Fef01eadad26d827d5dafd2bd5946fb999dddcf6d-2400x2400.png%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75" alt="Runpod" loading="lazy">
+								</div>
+								<span class="skill-name">Runpod</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn-1.webcatalog.io/catalog/retell-ai/retell-ai-icon-unplated.png?v=1714782992901" alt="Retell AI" loading="lazy">
+								</div>
+								<span class="skill-name">Retell AI</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjGSq8I-kf2h4TBfMH1EGAtJhiMUkay1iyw&s" alt="Voiceflow" loading="lazy">
+								</div>
+								<span class="skill-name">Voiceflow</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://www.bvp.com/assets/uploads/2024/12/portfolio-vapi.png" alt="VAPI" loading="lazy">
+								</div>
+								<span class="skill-name">VAPI</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/elevenlabs.svg" alt="ElevenLabs" loading="lazy">
+								</div>
+								<span class="skill-name">ElevenLabs</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://images.icon-icons.com/2699/PNG/512/twilio_logo_icon_168416.png" alt="Twilio" loading="lazy">
+								</div>
+								<span class="skill-name">Twilio</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://img.icons8.com/color/96/000000/asterisk.png" alt="Asterisk" loading="lazy">
+								</div>
+								<span class="skill-name">Asterisk</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://images.seeklogo.com/logo-png/48/2/pinecone-icon-logo-png_seeklogo-482365.png" alt="Pinecone" loading="lazy">
+								</div>
+								<span class="skill-name">Pinecone</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://newrelic.com/sites/default/files/styles/medium/public/quickstarts/images/icons/faiss--logo.png?itok=JXilshIX" alt="FAISS" loading="lazy">
+								</div>
+								<span class="skill-name">FAISS</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://images.icon-icons.com/2148/PNG/512/expo_icon_132404.png" alt="Expo" loading="lazy">
+								</div>
+								<span class="skill-name">Expo</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/deepseek.svg" alt="Deepseek" loading="lazy">
+								</div>
+								<span class="skill-name">Deepseek</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/6697e68b90253f000eed3a7c_HighLevel-Logo-(PNG).png" alt="GoHiLevel" loading="lazy">
+								</div>
+								<span class="skill-name">GoHiLevel</span>
+							</div>
+						</div>
+						<div class="skills-list">
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/n8n-color.png" alt="n8n" loading="lazy">
+								</div>
+								<span class="skill-name">n8n</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://img.icons8.com/color/96/000000/zapier.png" alt="Zapier" loading="lazy">
+								</div>
+								<span class="skill-name">Zapier</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/make-color.png" alt="Make.com" loading="lazy">
+								</div>
+								<span class="skill-name">Make.com</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://ramp.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F6jz6vxxd%2Fproduction%2Fef01eadad26d827d5dafd2bd5946fb999dddcf6d-2400x2400.png%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75" alt="Runpod" loading="lazy">
+								</div>
+								<span class="skill-name">Runpod</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn-1.webcatalog.io/catalog/retell-ai/retell-ai-icon-unplated.png?v=1714782992901" alt="Retell AI" loading="lazy">
+								</div>
+								<span class="skill-name">Retell AI</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjGSq8I-kf2h4TBfMH1EGAtJhiMUkay1iyw&s" alt="Voiceflow" loading="lazy">
+								</div>
+								<span class="skill-name">Voiceflow</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://www.bvp.com/assets/uploads/2024/12/portfolio-vapi.png" alt="VAPI" loading="lazy">
+								</div>
+								<span class="skill-name">VAPI</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/elevenlabs.svg" alt="ElevenLabs" loading="lazy">
+								</div>
+								<span class="skill-name">ElevenLabs</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://images.icon-icons.com/2699/PNG/512/twilio_logo_icon_168416.png" alt="Twilio" loading="lazy">
+								</div>
+								<span class="skill-name">Twilio</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://img.icons8.com/color/96/000000/asterisk.png" alt="Asterisk" loading="lazy">
+								</div>
+								<span class="skill-name">Asterisk</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://images.seeklogo.com/logo-png/48/2/pinecone-icon-logo-png_seeklogo-482365.png" alt="Pinecone" loading="lazy">
+								</div>
+								<span class="skill-name">Pinecone</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://newrelic.com/sites/default/files/styles/medium/public/quickstarts/images/icons/faiss--logo.png?itok=JXilshIX" alt="FAISS" loading="lazy">
+								</div>
+								<span class="skill-name">FAISS</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://images.icon-icons.com/2148/PNG/512/expo_icon_132404.png" alt="Expo" loading="lazy">
+								</div>
+								<span class="skill-name">Expo</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/deepseek.svg" alt="Deepseek" loading="lazy">
+								</div>
+								<span class="skill-name">Deepseek</span>
+							</div>
+							<div class="skill-item">
+								<div class="skill-icon">
+									<img src="https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/6697e68b90253f000eed3a7c_HighLevel-Logo-(PNG).png" alt="GoHiLevel" loading="lazy">
+								</div>
+								<span class="skill-name">GoHiLevel</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="skills-side-fade right"></div>
+				<div class="skills-side-fade left"></div>
+			</div>
+			<div data-w-id="65762e64-4aa5-e963-6961-1a6f651f2a29" class="framing-line-container top testimonial">
+				<div class="framing-line vertical"></div>
+				<div class="framing-line horizontal"></div>
+				<div class="framing-line-glow-blocker"></div>
+				<div class="framing-line-glow"></div>
+			</div>
+			<div class="framing-line-container bottom testimonial">
+				<div class="framing-line vertical"></div>
+				<div class="framing-line horizontal"></div>
+				<div class="framing-line-glow-blocker"></div>
+				<div class="framing-line-glow"></div>
+			</div>
+			<div class="testimonial-background"><img
+					src="assets1/675fcd07487e6c15b105b90a_Testimonial%20Background.svg" loading="lazy"
+					alt="" class="testimonal-background-image">
+				<div class="testimonial-background-mask left">
+					<div data-w-id="65762e64-4aa5-e963-6961-1a6f651f2a36" class="border-glow-diagonal-top-right"></div>
+				</div>
+				<div class="testimonial-background-mask right">
+					<div data-w-id="65762e64-4aa5-e963-6961-1a6f651f2a38" class="border-glow-diagonal-top-left"></div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer data-w-id="67bafc95-f277-fda3-b531-b66701d6bcf9" class="footer">
+		<div class="footer-background"><img
+				src="assets1/675fd88a1a27293d9de57f9a_Footer%20Top%20Decor.svg" loading="lazy" alt=""
+				class="footer-decor-image desktop"><img
+				src="assets1/67bfcda2f2c18b245e73e62c_Footer%20Top%20Decor%20-%20Tablet.svg"
+				loading="lazy" alt="" class="footer-decor-image tablet"><img
+				src="assets1/67bfcda2f6a8eb2b41e81a01_Footer%20Top%20Decor%20-%20Phone.svg"
+				loading="lazy" alt="" class="footer-decor-image phone">
+			<div class="footer-decor-mask">
+				<div data-w-id="67bafc95-f277-fda3-b531-b66701d6bcfd" class="border-glow-horizontal"></div>
+				<div class="button-hover-indicator left"></div>
+			</div>
+		</div><a href="contact.html" class="footer-cta center-align margin-40 w-inline-block">
+			<h2 class="footer-cta-text">Let&#x27;s <span class="highlight-text">Work</span> Together</h2>
+		</a>
+		<div class="straight-line-gap-mask margin-40">
+			<div class="straight-line-gap-fade left"></div>
+			<div class="straight-line-gap-fade right"></div>
+			<div data-w-id="67bafc95-f277-fda3-b531-b66701d6bd07" class="border-glow-horizontal"></div>
+			<div class="button-hover-indicator right"></div>
+		</div>
+		<div class="footer-links-container"><a href="index.htm" aria-current="page"
+				class="footer-links w--current">Home</a><a href="about.html" class="footer-links">About</a><a
+				href="portfolio.html" class="footer-links">Portfolio</a></div>
+		
+	</footer>
+	
+	<script src="js/jquery-3.5.1.min.dc5e7f18c8.js?site=assets1" type="text/javascript"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="assets1/js/webflow.schunk.36b8fb49256177c8.js" type="text/javascript"></script>
+	<script src="assets1/js/webflow.schunk.76ed1ed684e72e07.js" type="text/javascript"></script>
+	<script src="assets1/js/webflow.8ba8905f.677a9e745e0fe8fc.js" type="text/javascript"></script>
+	
+	<!-- Content Protection -->
+	<script src="js/protection.js"></script>
+	
+
+</body>
+
+</html>
